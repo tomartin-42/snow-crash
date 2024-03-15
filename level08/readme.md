@@ -1,0 +1,18 @@
+- Dos archivos en el directorio level08 y token
+- ls -la 
+-r-x------  1 level08 level08  220 Apr  3  2012 .bash_logout
+-r-x------  1 level08 level08 3518 Aug 30  2015 .bashrc
+-rwsr-s---+ 1 flag08  level08 8617 Mar  5  2016 level08
+-r-x------  1 level08 level08  675 Apr  3  2012 .profile
+-rw-------  1 flag08  flag08    26 Mar  5  2016 token
+- no tengo acceso a token y level08 tiene SUID
+- descargo el level08 a local
+- Uso Ghidra con level8
+CODIGO
+- Es un programa que lee el un archivo como primer y unico parametro pero siempre hay un if que si el parametro es == 'token' no tenemos permisos
+- La solucion es hacer un link a token y pasarle como parametro ese link
+- ln -n /home/user/level08/token /tmp/fake
+- ./level08 /tmp/fake
+- Obtengo la clave de flag08
+- su flag08 + clave 
+- getflag
