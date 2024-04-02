@@ -10,7 +10,7 @@
     ```
 - I try the password with its flag00 but it doesn't work.
 - I search if it's a Caesar cipher.
-- I find that it could be nottoohardhere.
+- I find that it could be `nottoohardhere`
 
 ### LEVEL00
 - Busco archivos del propietario flag00

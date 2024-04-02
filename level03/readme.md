@@ -6,6 +6,8 @@
         [...]
         level03@SnowCrash:~$ file level03
         level03: setuid setgid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x3bee584f790153856e826e38544b9e80ac184b7b, not stripped
+        level03@SnowCrash:~$ ./level03
+        Exploit me
     ``` 
 - The file level03 has SUID permissions, so when it's executed, it runs as if it were the user flag03.
 
@@ -69,6 +71,8 @@
         [...]
         level03@SnowCrash:~$ file level03
         level03: setuid setgid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x3bee584f790153856e826e38544b9e80ac184b7b, not stripped
+        level03@SnowCrash:~$ ./level03
+        Exploit me
     ``` 
 
 - El archivo level03 tiene permisos SUID por lo cual cuando se ejecuta como si fuera el usuario flag03
