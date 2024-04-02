@@ -52,6 +52,9 @@
 - El `/e` permite que se ejecute la regex como código php
 - Vamos a intentar inyectar el `getflag`
 - Necesitamos un archivo para que lo lea el script
+    1. Que empiece por `[x `
+    1. Luego el comando que queremos ejecutar `... ${`getflag`}`
+    1. Y cerramos corchete `]`
     ```bash
-    
+    echo '[x ${`getflag`}]' > /tmp/a
     ```
