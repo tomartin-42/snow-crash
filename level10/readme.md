@@ -74,7 +74,7 @@
     [...]
     36  iVar2 = access((char *)in_stack_00000008[1],4);
     37  if (iVar2 == 0) 
-        { ... }
+    [...]
     89  else {
     90    iVar2 = printf("You don\'t have access to %s\n",pcVar6);
     91  }
@@ -89,7 +89,7 @@ https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use
 
 https://lucabarile.github.io/Blog/toctou/index.html
 
-- Condole1:
+- Console1:
     ```bash
     level10@SnowCrash:~$ while true; do ./level10 /tmp/a $(hostname -I); done
     ```
@@ -185,7 +185,7 @@ https://lucabarile.github.io/Blog/toctou/index.html
     [...]
     36  iVar2 = access((char *)in_stack_00000008[1],4);
     37  if (iVar2 == 0) 
-        { ... }
+    [...]
     89  else {
     90    iVar2 = printf("You don\'t have access to %s\n",pcVar6);
     91  }
@@ -200,7 +200,7 @@ https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use
 
 https://lucabarile.github.io/Blog/toctou/index.html
 
-- Condole1:
+- Console1:
     ```bash
     level10@SnowCrash:~$ while true; do ./level10 /tmp/a $(hostname -I); done
     ```
