@@ -21,7 +21,7 @@
     return $a; // Returns the modified content of the file.
     }
     ```
-- The attack vector is in the line `$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);`.
+- The attack vector is in the line `$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);` https://stackoverflow.com/questions/65024562/how-can-e-regex-expression-be-misused-on-a-php-code-snippet-running-on-my-ser/78247613#78247613
 - The `/e` flag allows the regex to be executed as PHP code.
 - We're going to attempt to inject `getflag`.
 - We need a file for the script to read.
@@ -63,7 +63,7 @@
     return $a; // Retorna el contenido modificado del archivo
     }
     ```
-- El vector de ataque está en la línea `$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);`
+- El vector de ataque está en la línea `$a = preg_replace("/(\[x (.*)\])/e", "y(\"\\2\")", $a);` https://stackoverflow.com/questions/65024562/how-can-e-regex-expression-be-misused-on-a-php-code-snippet-running-on-my-ser/78247613#78247613
 - El `/e` permite que se ejecute la regex como código php
 - Vamos a intentar inyectar el `getflag`
 - Necesitamos un archivo para que lo lea el script
