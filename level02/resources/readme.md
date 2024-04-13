@@ -1,5 +1,5 @@
 ### LEVEL02
-- ls -la
+- `ls -la`
     ```bash
     [...]
     ----r--r-- 1 flag02  level02 8302 Aug 30  2015 level02.pcap
@@ -44,7 +44,7 @@
 
 ### LEVEL02
 
-- ls -la
+- `ls -la`
     ```bash
     [...]
     ----r--r-- 1 flag02  level02 8302 Aug 30  2015 level02.pcap
@@ -53,7 +53,7 @@
 
 - Encuentro un archivo `level02.pcap` (wireshark) https://www.wireshark.org/
 
-- Descarco en local el archivo
+- Descargo en local el archivo
     ```bash
     scp -p 4242 level02@192.168.1.42:/home/user/level02/level02.pcap .
     ```
@@ -62,7 +62,7 @@
 
 - Navegando por el veo un paquete que contiene la palabra `Password`
 
-- Utilizo el comando tshark que el wireshark pero en linea de comandos para sacar toda la data
+- Utilizo el comando tshark que es wireshark pero en linea de comandos para sacar toda la data
     ```bash
     tshark -Tfields -e data -r level02.pcap | xxd -r -p
     [...]

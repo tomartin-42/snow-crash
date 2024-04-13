@@ -29,7 +29,7 @@
     ```
 - Tenemos la clave pero está cifrada
 - La copiamos en la maquina local
-- Usaremos jhon para desencriptar https://www.openwall.com/john/
+- Usaremos john para desencriptar https://www.openwall.com/john/
     ```bash
     echo "flag01:42hDRfypTqqnw" > tocrack
     john tocrack --show
