@@ -119,7 +119,7 @@
 
 - `cat level11.lua` tenemos un script que parece abrir una conexion en `127.0.0.1:5151`.
 
-- comprobamos si está en en ejecucion
+- Comprobamos si está en ejecución
     ```bash
     level11@SnowCrash:~$ nc -vz 127.0.0.1 5151
     Connection to 127.0.0.1 5151 port [tcp/pcrd] succeeded!
@@ -162,7 +162,7 @@
     [...]
     ```
 
-- Luego comprueba con un if si el hash que retorna la funcion coincide con un hash
+- Luego comprueba con un `if` si el hash que retorna la funcion coincide con un hash
 
 - Pero el if o el else solo muestra unas cadenas, es un rabbit hole
     ```lua

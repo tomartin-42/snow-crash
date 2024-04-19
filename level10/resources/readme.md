@@ -192,9 +192,9 @@ https://lucabarile.github.io/Blog/toctou/index.html
     [...]
     ```
 
-- Solo envía el archivo si tenemos permisos en el archivo archivo
+- Solo envía el archivo si tenemos permisos en el archivo
 
-- Pera hay un posible vector de ataque TOCTOU(Time-of-check to time-to-use)
+- Pero hay un posible vector de ataque TOCTOU(Time-of-check to time-to-use)
 
 https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use
 
